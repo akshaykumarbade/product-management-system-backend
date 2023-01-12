@@ -66,6 +66,7 @@ public class ProductServiceImp implements ProductService {
 		old.setCamera_Pixel(smartPhone.getCamera_Pixel());
 		old.setPrice_$dollars(smartPhone.getPrice_$dollars());
 		old.setBrand(smartPhone.getBrand());
+		old.setStatus(smartPhone.getStatus());
 		
 		return productRepo.save(old);
 	}
