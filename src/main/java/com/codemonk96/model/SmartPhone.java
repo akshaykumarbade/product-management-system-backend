@@ -23,25 +23,25 @@ public class SmartPhone {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 	
-	//@Column (length = 40, name="name")
+	
 	private String name;
 	
-	//@Column (length = 30, name="ram")
+	
 	private String ram_GB;
 	
-	//@Column (length = 30, name="storage")
+	
 	private String storage_GB;
 	
-	//@Column (length=40, name="camera")
+	
 	private String camera_Pixel;
 	
-	//@Column (length = 40, name="price")
+	
 	private Double price_$dollars;
 	
-	//@Column (length = 30, name="brand")
+	
 	private String brand;
 	
-	//@Column (length = 30, name="brand")
+	
 	private String status;
 
 }

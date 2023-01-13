@@ -11,7 +11,7 @@ import com.codemonk96.repository.ProductRepository;
 @Service
 public class ProductServiceImp implements ProductService {
 	
-	@Autowired ProductRepository productRepo;
+	@Autowired ProductRepository productRepo; // spring container autowires the bean by matching data type
 
 	@Override
 	public SmartPhone saveProduct(SmartPhone smartPhone) {
